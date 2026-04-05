@@ -1,0 +1,6 @@
+@RestoApi_HostAddress = http://localhost:5244
+
+GET {{RestoApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
