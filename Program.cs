@@ -33,6 +33,7 @@ builder.Services.AddSwaggerGen(options =>
     });
 
     options.OperationFilter<SecurityRequirementsOperationFilter>();
+
 });
 // 1. Setup Identity with the specific User type and DbContext
 builder.Services.AddIdentityApiEndpoints<ApplicationUser>()
